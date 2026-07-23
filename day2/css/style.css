@@ -1,0 +1,63 @@
+h1{
+    font-size: 80px;
+}
+
+/* Layout Style */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: lightsalmon;
+    font-size: 200px;
+    padding: 20px;
+    text-align: center;
+}
+/**
+ Padding ระยะห่างลงมา 
+ text-align ต่ำแหน่งของข้อความ
+**/
+
+nav{
+    background-color: yellow;
+    float: left;
+    width: 25%;
+    height: 400px;
+    font-size: 60px;
+    padding: 30px;
+    /** float คือหมุน ไปซ้าย หรือ ขวา **/
+}
+
+article{
+    float: left;
+    background-color: yellowgreen;
+    width: 75%;
+    height: 400px;
+    font-size: 60px;
+    padding: 30px; 
+    /* padding เอียงข้างลงมา */
+}
+
+footer{
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 60px;
+    text-align: center;
+    height: auto;
+}
+
+@media (max-width: 600px){
+    nav , article {
+        width: 100%;
+        height: auto;
+    }
+
+    header{
+        font-size: 60px;
+    }
+}
