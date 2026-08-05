@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h2>Form</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="layout.html">Go To Layout</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h1>กรอกข้อมูล</h1>
+    <form>
+      <label>วัน เดือน ปี เกิด : </label>
+      <input type="date" required><br>
+      <!-- <label>เวลาตกฟาก : </label>
+      <input type="time"><br> -->
+      <label>น้ำหนัก (กก.) : </label>
+      <input type="number" min="30" max="300"><br>
+      <label>ส่วนสูง (เซนติเมตร ) : </label>
+      <input type="number" min="80" max="300"><br>
+      <label>เบอร์โทร : </label>
+      <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+      <label>Link Facebook : </label>
+      <input type="url"><br>
+      <label>แนปไฟล์รูปภาพหน้าตรง : </label>
+      <input type="file"><br>
+      <label>สีที่ชอบ : </label>
+      <input type="color"><br>
+
+      <!-- เลือกได้อย่างเดียวจาก choic ทั้งหมด -->
+      <label>เขาเรียนสาขาวิชาอะไร : </label><br>
+      <input type="radio" name="major" value="IT">
+      <label> : IT </label><br>
+      <input type="radio" name="major" value="ITI">
+      <label> : ITI </label><br>
+      <input type="radio" name="major" value="INE">
+      <label> : INE </label><br>
+      <input type="radio" name="major" value="INET">
+      <label> : INET </label><br>
+      <input type="radio" name="major" value="ITT">
+      <label> : ITT </label><br>
+      <br>
+      <!-- เลือกได้หลายอย่างจาก choic ทั้งหมด  -->
+      <label>วิชาที่ชอบ : </label><br>
+      <input type="checkbox" name="sub1" value="COMPRO">
+      <label> : COMPRO </label><br>
+      <input type="checkbox" name="sub2" value="INTRO">
+      <label> : INTRO </label><br>
+      <input type="checkbox" name="sub3" value="ENGLISH">
+      <label> : ENGLISH </label><br>
+
+      <br>
+      <input type="submit" value="ส่งข้อมูล">
+      <input type="reset" value="ยกเลิก">
+    </form>
+  </article>
+</section>
+
+<footer>
+  <h2>Footer</h2>
+</footer>
+
+</body>
+</html>
+
