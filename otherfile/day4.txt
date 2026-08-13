@@ -1,0 +1,20 @@
+quiz 1 อยู่ /users2-
+cp test1.txt A1/A2/test3.txt
+
+
+
+mv test1.txt test2.txt A1/A2/
+
+
+mv ../*.txt A2/
+
+R = read
+W = Write
+X = Execute
+
+
+permission
+111 	101 	100
+4+2+1 	4+1 	4
+
+3 

@@ -1,0 +1,9 @@
+copy new1.txt C:\Users\Admin\Desktop\6906022510148\A1\A2\A3\A4\new3.txt
+
+ย้าย new3.txt มา new3.txt
+copy C:\Users\Admin\Desktop\6906022510148\A1\A2\A3\A4\new3.txt C:\Users\Admin\Desktop\6906022510148\B1\B2\new3.txt
+
+
+ลบไฟล์
+del C:\Users\Admin\Desktop\6906022510148\A1\A2\A3\A4\new3.txt
+

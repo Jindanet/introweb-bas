@@ -1,0 +1,21 @@
+Device		IP			SUBNET MASK		Gateway			Network Address
+PC0 		192.168.1.100		255.255.255.0		192.168.1.1		192.168.1.0/24
+SERVER0 	192.168.1.254		255.255.255.0		192.168.1.1		192.168.1.0/24
+r1-gi0/1	192.168.1.1		255.255.255.0
+
+PC1		10.0.0.100		255.255.255.0		10.0.0.1		10.0.0.0/24
+r2-gi0/2	10.0.0.1		255.255.255.0
+
+r1-gi0/0	172.16.0.1		255.255.255.0					172.16.0.0/24
+r2-gi0/0	172.16.0.2		255.255.255.0					172.16.0.0/24
+
+					8 บิตต่อ 1 ออฟเต็ด	
+
+gateway ( R ย่อมาจาก router)
+
+
+enable
+configure terminal
+Router(config)#interface GigabitEthernet0/1
+Router(config-if)#ip address 10.0.0.1 255.255.255.0
+Router(config-if)#no shutdown
