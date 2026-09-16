@@ -1,0 +1,12 @@
+ให้อ่าน ch06_Computer%20Network.pdf และ ch07_Internet.pdf
+
+ประเภทของเครือข่าย ย่อยๆ	 จะออกสอบ
+
+C:\Users\Jindanet>tracert google.com
+
+Nat = network address translater
+แปลง private address(10.4.201.225) ให้เป็น public address(202.44.47.11) เพียง 1 หมายเลขเพื่อให้เชื่อมต่อกับอินเตอร์เน็ตภายนอกได้
+ต่อให้ private address มีจำนวนมาก สามารถแปลงให้เป็น public address ไอพีเดียวได้
+
+ตัวกลางนําข้อมูล (Media) or Medium เช่น สาย เช่น คลื่น
+
